@@ -676,7 +676,6 @@ body {
   
   ul {
     padding: 0;
-    list-style: none;
   }
   
   .why-us .accordion-list li+li {
@@ -840,6 +839,7 @@ body {
     padding: 50px 30px;
     transition: all ease-in-out 0.4s;
     background: #fff;
+    width: 100%;
   }
   
   .services .icon-box .icon {
