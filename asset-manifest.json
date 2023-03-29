@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9e6ac9eb.css",
+    "main.js": "/static/js/main.0db63dc5.js",
+    "static/media/ssis4.jpg": "/static/media/ssis4.f0053ceb34a5738d5759.jpg",
+    "static/media/solar4.jpg": "/static/media/solar4.5f0dc2e2bfad2bf689b6.jpg",
+    "static/media/logo.png": "/static/media/logo.356588109dc146153779.png",
+    "static/media/value.jpg": "/static/media/value.2c0b95998cd8efa434c1.jpg",
+    "index.html": "/index.html",
+    "main.9e6ac9eb.css.map": "/static/css/main.9e6ac9eb.css.map",
+    "main.0db63dc5.js.map": "/static/js/main.0db63dc5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e6ac9eb.css",
+    "static/js/main.0db63dc5.js"
+  ]
+}
