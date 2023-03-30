@@ -65,20 +65,6 @@ function Header() {
                         <li>
                             <Link
                                 activeClass=""
-                                to="why-us"
-                                spy={true}
-                                smooth={true}
-                                offset={-70}
-                                duration={400}
-                                onClick={toggleMobileNav}
-                                className="nav-link scrollto"
-                            >
-                                Why us
-                            </Link>
-                        </li>
-                        <li>
-                            <Link
-                                activeClass=""
                                 to="services"
                                 spy={true}
                                 smooth={true}
@@ -93,7 +79,7 @@ function Header() {
                         <li>
                             <Link
                                 activeClass=""
-                                to="team"
+                                to="categories"
                                 spy={true}
                                 smooth={true}
                                 offset={-70}
@@ -101,7 +87,7 @@ function Header() {
                                 onClick={toggleMobileNav}
                                 className="nav-link scrollto"
                             >
-                                Team
+                                Categories
                             </Link>
                         </li>
                         <li>

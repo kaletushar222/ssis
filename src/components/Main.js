@@ -150,14 +150,14 @@ function Main() {
 
                 </div>
             </section>
-            <section id="portfolio" class="portfolio">
+            <section id="categories" class="portfolio">
                 <div class="container" data-aos="fade-up">
                     <div class="section-title">
                     <h2>Categories</h2>
                         <p>Welcome to our industrial solutions company's categories! Here you will find an overview of the different categories of industrial solutions we offer to help you find the products and services that best suit your needs.</p>
                     </div>
 
-                    <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" >
+                    <ul id="portfolio-flters" class="d-grid-mobile d-flex justify-content-center" data-aos="fade-up" >
                         <li onClick={ ()=> setSelectedCategory("INDUSTRIAL_SUPPLIES") } className={selectedCategory === "INDUSTRIAL_SUPPLIES"? "filter-active" : ""}>Industrial Supplies</li>
                         <li onClick={ ()=> setSelectedCategory("SAFETY_SUPPLIES") } className={selectedCategory === "SAFETY_SUPPLIES"? "filter-active" : ""}> Safety Supplies</li>
                         <li onClick={ ()=> setSelectedCategory("OFFICE_SUPPLIES") } className={selectedCategory === "OFFICE_SUPPLIES"? "filter-active" : ""}> Office Supplies</li>
@@ -165,7 +165,7 @@ function Main() {
                         <li onClick={ ()=> setSelectedCategory("CHEMICALS") } className={selectedCategory === "CHEMICALS"? "filter-active" : ""}> Chemicals</li>
                     </ul>
                     <br/>
-                    <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+                    <div class="row portfolio-container" style={{marginLeft : "0" }}>
                         {
                             selectedCategory === "INDUSTRIAL_SUPPLIES" &&
                             <div className='row'>
@@ -455,27 +455,8 @@ function Main() {
                     </div>
 
                 </div>
-                </section>
-
-            <section id="team" className="team section-bg">
-                <div className="container" data-aos="fade-up">
-
-                    <div className="section-title">
-                        <h2>Team</h2>
-                        <p>We have an expert team of experienced and dynamic personnel with a young and talented leader <strong>Mr. Harshal Kondhare</strong> who has pursued his master’s degree in Renewable Energy, London, UK with an Industrial experience of 2 years in the same field.</p>
-                    </div>
-
-                    <div className="row" style={{ textAlign: "center" }}>
-                        <ul>
-                            <li>  Director</li>
-                            <li>  Admin staff (2 Accountants and 1 HR)</li>
-                            <li>  Field staff - (2 site engineers, 1 site supervisor, 2 skilled electricians and 6 unskilled workers.</li>
-                        </ul>
-                    </div>
-
-                </div>
             </section>
-            <section id="contact" className="contact">
+            <section id="contact" className="contact section-bg">
                 <div className="container" data-aos="fade-up">
 
                     <div className="section-title">
@@ -489,20 +470,41 @@ function Main() {
                             <div className="info">
                                 <div className="address">
                                     <GeoAltFill size={35}/>
-                                    <h4>Location:</h4>
-                                    <p>Glaring Evolution Technologies Office no 26, Royal Chambers, Opp Suzuki Showroom, Paud Road, Pune - 411038</p>
+                                    <h4>Branch Office</h4>
+                                    <p>
+                                        Office No. 321, Tower D,
+                                        Chandigarh City Centre,
+                                        Zirakpur - 140603, Punjab
+                                    </p>
+                                </div>
+                                <div className="address">
+                                    <GeoAltFill size={35}/>
+                                    <h4>Registerred Office</h4>
+                                    <p>
+                                        Village - Bhagwanpura, Barwala Road,
+                                        DeraBassi
+                                        Punjab - 140507
+                                    </p>
                                 </div>
 
                                 <div className="email">
                                     <EnvelopeAtFill size={35} />
                                     <h4>Email:</h4>
-                                    <p>info@glaringevolution.com</p>
+                                    <p>
+                                        sales@ssisindia.co.in
+                                        <br/>
+                                        ops@ssisindia.co.in
+                                    </p>
                                 </div>
 
                                 <div className="phone">
                                     <PhoneFill  size={35}  />
                                     <h4>Call:</h4>
-                                    <p>+91 7030991164</p>
+                                    <p>
+                                        +91 - 7696672502
+                                        <br/>
+                                        +91 - 98144 12360
+                                    </p>
                                 </div>
                             </div>
 

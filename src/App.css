@@ -195,6 +195,14 @@ body {
     color: #fff;
     background: #b67428;
   }
+
+  @media (max-width: 991px) {
+    .navbar .getstarted{
+      color: #fff;
+      background: #b67428;
+      width: 40%;
+    }
+  }
   
   .navbar .dropdown ul {
     display: block;
@@ -881,7 +889,7 @@ body {
   # Cta
   --------------------------------------------------------------*/
   .cta {
-    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 96, 90, 0.9)), url("./assets/images/solar4.jpg") fixed center center;
+    background: linear-gradient(rgba(91, 68, -44, 0.9), rgba(84, 89, 105, 0.9)), url("./assets/images/ssis5.jpg") fixed center center;
     background-size: cover;
     padding: 120px 0;
   }
@@ -1834,4 +1842,11 @@ body {
   .reveal.active{
     transform: translateY(0);
     opacity: 1;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .d-grid-mobile{
+      display: grid !important;
+    }
+
   }
