@@ -42,19 +42,16 @@ function Main() {
             </section>
             <section id="services" className="services section-bg">
                 <div className="container" data-aos="fade-up">
-
                     <div className="section-title">
                         <h2>Services</h2>
                         <p>We are dedicated to providing top-quality services to our clients, and we strive to meet and exceed their expectations. Our services are designed to meet a wide range of needs, and we are committed to providing excellent customer service and support throughout every step of the process.</p>
                     </div>
 
                     <div className="row reveal">
-                        <div className="col-xl-1 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
-                        </div>
                         <div className="col-xl-2 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" >
                             <div className="icon-box">
                                 <div className="icon"><i className="bx bxl-dribbble"></i></div>
-                                <h4><a href="#">Industrial Supplies</a></h4>
+                                <h4><a href="#">Vendor Consolidation</a></h4>
                                 <p></p>
                             </div>
                         </div>
@@ -62,15 +59,14 @@ function Main() {
                         <div className="col-xl-2 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
                             <div className="icon-box">
                                 <div className="icon"><i className="bx bx-file"></i></div>
-                                <h4><a href="#">Safety Supplies</a></h4>
+                                <h4><a href="#">Inventory Management</a></h4>
                                 <p></p>
                             </div>
                         </div>
-
                         <div className="col-xl-2 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
                             <div className="icon-box">
                                 <div className="icon"><i className="bx bx-file"></i></div>
-                                <h4><a href="#">Office Supplies</a></h4>
+                                <h4><a href="#">CAPEX / OPEX procurement</a></h4>
                                 <p></p>
                             </div>
                         </div>
@@ -78,7 +74,7 @@ function Main() {
                         <div className="col-xl-2 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
                             <div className="icon-box">
                                 <div className="icon"><i className="bx bx-tachometer"></i></div>
-                                <h4><a href="#">Customised Products </a></h4>
+                                <h4><a href="#">Vendor Managed Inventory ( VMI ) </a></h4>
                                 <p></p>
                             </div>
                         </div>
@@ -86,7 +82,14 @@ function Main() {
                         <div className="col-xl-2 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
                             <div className="icon-box">
                                 <div className="icon"><i className="bx bx-layer"></i></div>
-                                <h4><a href="#">Chemicals&nbsp;&nbsp;</a></h4>
+                                <h4><a href="#">SIS projects&nbsp;&nbsp;</a></h4>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div className="col-xl-2 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+                            <div className="icon-box">
+                                <div className="icon"><i className="bx bx-layer"></i></div>
+                                <h4><a href="#">CSR projects&nbsp;&nbsp;</a></h4>
                                 <p></p>
                             </div>
                         </div>

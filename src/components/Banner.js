@@ -11,7 +11,7 @@ function Banner() {
                     <div class="col-lg-1 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1">
 
                     </div>
-                    <div class="col-lg-5 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1">
+                    <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1">
                         <br/><br/>
                         <h1>SS Industrial Solutions</h1>
                         <h2>Optimizing the purchase function !!</h2>
