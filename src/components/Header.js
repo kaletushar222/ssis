@@ -29,10 +29,10 @@ function Header() {
     return (
         <header id="header" className="fixed-top ">
             <div className="container d-flex align-items-center">
-                <h1 className="logo me-auto">
-                    
+                <h1 className='only-mobile'>
+                    SS Industrial Solutions
                 </h1>
-                <nav id="navbar" className="navbar">
+                <nav id="navbar" className="navbar custom-margin">
                     <ul>
                         <li>
                             <Link

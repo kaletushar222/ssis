@@ -343,7 +343,7 @@ body {
   .navbar-mobile .getstarted,
   .navbar-mobile .getstarted:focus {
     margin: 15px;
-    color: #707070;
+    color: #FFF;
   }
   
   .navbar-mobile .dropdown ul {
@@ -386,8 +386,13 @@ body {
     height: 80vh;
     background: #707070;
     background-image: url("./assets/images/ssis4.jpg");
-    background-position-y: 100vh;
-    background-blend-mode: darken;
+    background-blend-mode: multiply;
+    background-size: cover;
+  }
+  @media (max-width: 991px) {
+    #hero {
+      background-size: contain;
+    }
   }
   
   #hero .container {
@@ -1849,4 +1854,39 @@ body {
       display: grid !important;
     }
 
+  }
+
+  .custom-div {
+    width: 100%;
+    display: flex;
+  }
+
+  .custom-div-1 {
+    width: 80%;
+  }
+
+  .custom-div-2{
+    margin-top: 8%;
+    width: 60%;
+  }
+
+  .only-mobile {
+    color: #fff;
+    display: none;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .only-mobile {
+      display: block;
+      margin-right: 15%;
+    }
+  }
+
+  .custom-margin {
+    margin-left: 60%;
+  }
+  @media only screen and (max-width: 600px) {
+    .custom-margin{
+      margin-left: 0;
+    }
   }
