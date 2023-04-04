@@ -1890,3 +1890,13 @@ body {
       margin-left: 0;
     }
   }
+
+
+  @media only screen and (max-width: 600px) {
+    #header {
+        padding: 15px 10px;
+    }
+    .fixed-top {
+      left: 1;
+    }
+  }

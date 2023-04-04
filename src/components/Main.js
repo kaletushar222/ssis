@@ -74,7 +74,7 @@ function Main() {
                         <div className="col-xl-2 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
                             <div className="icon-box">
                                 <div className="icon"><i className="bx bx-tachometer"></i></div>
-                                <h4><a href="#">Vendor Managed Inventory ( VMI ) </a></h4>
+                                <h4><a href="#">Vendor Managed Inventory (VMI)</a></h4>
                                 <p></p>
                             </div>
                         </div>
